@@ -18,7 +18,7 @@ Searching the web for a tool to create report descriptors for HID and PID usage 
 The tool is not capable of handling report descriptors with "long" type of entries (more then 4 data bytes). Only the "short" element type (id byte with upto 4 data bytes) is useable. New added report elements cannot be longer then this limit. When a descriptor file contains such long elements at read-in the tool will in most cases misinterprete or discard it.
 
 ## Requirements
-The tool is compiled as .jar package for a java virtual machine with a least main verion 11.
+The tool is compiled as .jar package for a java virtual machine with a least main version 11.
 
 ## Import and Export
 - `.dat` intel lava data file
@@ -37,4 +37,4 @@ The tool uses a construct of linked tables to decode meaning, usage and limitati
 - `double-click on element` opens the edit panel for the clicked element
 - `double-click on item name` opens the adding panel for the clicked item
 
-Additional the element table is a gridview so all copied data can be pasted to excel.
+In addition the element table is a gridview so all copied data can be pasted to excel.
