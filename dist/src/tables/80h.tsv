@@ -1,0 +1,10 @@
+bFalseText	bTrueText	bBit
+Data	Constant	0
+Array	Variable	1
+Absolute	Relative	2
+No Wrap	Wrap	3
+Linear	Non Linear	4
+Preferred State	No Preferred	5
+No Null Position	Null State	6
+Reserved	Reserved	7
+Bit Field	Buffered Bytes	8

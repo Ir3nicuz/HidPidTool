@@ -1,0 +1,28 @@
+sIdentifierName	sTypeName	bTagValue	bTypeValue	sTableFileName	eTableType	sConditionFileName	bDataSigned	bDataMaxBytes
+USAGE_PAGE	Global	0	1	04h.tsv	selector		false	2
+USAGE	Local	0	2	08h.tsv	conditionalSelector	04h.tsv	false	2
+USAGE_MINIMUM	Local	1	2	08h.tsv	conditionalSelector	04h.tsv	false	2
+USAGE_MAXIMUM	Local	2	2	08h.tsv	conditionalSelector	04h.tsv	false	2
+COLLECTION	Main	A	0	A0h.tsv	selector		false	2
+END_COLLECTION	Main	C	0				false	0
+INPUT	Main	8	0	80h.tsv	binary		false	4
+OUTPUT	Main	9	0	90h.tsv	binary		false	4
+FEATURE	Main	B	0	B0h.tsv	binary		false	4
+LOGICAL_MINIMUM	Global	1	1				true	4
+LOGICAL_MAXIMUM	Global	2	1				true	4
+PHYSICAL_MINIMUM	Global	3	1				true	4
+PHYSICAL_MAXIMUM	Global	4	1				true	4
+REPORT_ID	Global	8	1				false	1
+REPORT_SIZE	Global	7	1				false	4
+REPORT_COUNT	Global	9	1				false	4
+UNIT	Global	6	1	quickunit.tsv	unit		false	4
+UNIT_EXPONENT	Global	5	1				true	1
+DESIGNATOR_INDEX	Local	3	2				false	4
+DESIGNATOR_MINIMUM	Local	4	2				false	4
+DESIGNATOR_MAXIMUM	Local	5	2				false	4
+STRING_INDEX	Local	7	2				false	4
+STRING_MINIMUM	Local	8	2				false	4
+STRING_MAXIMUM	Local	9	2				false	4
+PUSH	Global	A	1				false	0
+POP	Global	B	1				false	0
+DELIMITER	Local	A	2	A8h.tsv	binary		false	4
