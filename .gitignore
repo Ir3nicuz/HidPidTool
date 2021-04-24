@@ -1,5 +1,6 @@
-/src
-/images
+# ignored folders
+src
+images
 
 # Log file
 *.log
