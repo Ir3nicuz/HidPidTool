@@ -1,5 +1,5 @@
-/src/*
-/images/*
+/src
+/images
 
 # Log file
 *.log
